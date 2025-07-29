@@ -1,0 +1,118 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Produk - SIRPAI.PEMULA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header, footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .product-card {
+      background-color: #111;
+      padding: 15px;
+      border: 1px solid #333;
+      text-align: center;
+    }
+    .product-card img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    footer p {
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Produk Kami</h1>
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="products.html">Produk</a>
+    <a href="about.html">Tentang</a>
+    <a href="contact.html">Kontak</a>
+  </nav>
+</header>
+
+<section class="products-grid">
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1609931082351-3800b18101f7?auto=format&fit=crop&w=600&q=60" alt="Oli Mesin Racing">
+    <h3>Oli Mesin Racing</h3>
+    <p>Performa tinggi untuk kendaraan harian dan balap.</p>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1624527271152-cb54b2740f3e?auto=format&fit=crop&w=600&q=60" alt="Knalpot Racing">
+    <h3>Knalpot Racing</h3>
+    <p>Desain stylish dengan suara menggelegar.</p>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1598618448950-55644743f76c?auto=format&fit=crop&w=600&q=60" alt="Lampu LED Motor">
+    <h3>Lampu LED Motor</h3>
+    <p>Pencahayaan maksimal dan hemat energi.</p>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1617821202154-9f06154b1db3?auto=format&fit=crop&w=600&q=60" alt="Aki Motor Premium">
+    <h3>Aki Motor Premium</h3>
+    <p>Daya tahan lebih lama, cocok semua jenis motor.</p>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1542377280-8f1dfbdb3934?auto=format&fit=crop&w=600&q=60" alt="Spion Model Racing">
+    <h3>Spion Model Racing</h3>
+    <p>Modis dan aerodinamis, cocok motor sport.</p>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1585951237314-78b9dba3b914?auto=format&fit=crop&w=600&q=60" alt="Ban Tubeless">
+    <h3>Ban Tubeless</h3>
+    <p>Kekuatan maksimal dan minim risiko bocor.</p>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1611080626911-9a9df13f5b99?auto=format&fit=crop&w=600&q=60" alt="Shockbreaker Racing">
+    <h3>Shockbreaker Racing</h3>
+    <p>Handling stabil dan kenyamanan ekstra.</p>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1618675528695-6c998dcd88e0?auto=format&fit=crop&w=600&q=60" alt="Helm Full Face">
+    <h3>Helm Full Face</h3>
+    <p>Keamanan maksimal dengan desain sporty.</p>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=600&q=60" alt="Sarung Tangan Motor">
+    <h3>Sarung Tangan Motor</h3>
+    <p>Grip kuat dan perlindungan saat berkendara.</p>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1660487505695-b967a511f5e0?auto=format&fit=crop&w=600&q=60" alt="Jas Hujan Riding">
+    <h3>Jas Hujan Riding</h3>
+    <p>Tetap kering saat hujan, dengan bahan anti-air kuat.</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 SIRPAI.PEMULA. All rights reserved.</p>
+</footer>
+
+</body>
+  </html>
